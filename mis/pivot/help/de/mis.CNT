@@ -1,0 +1,38 @@
+:Base mis.HLP
+1 MIS Report Designer
+2 Einführung
+3 Was ist der MIS Report Designer?=Was_ist_der_MIS_Report_Designer
+3 Erste Schritte=Erste_Schritte
+3 Voraussetzungen=Voraussetzungen
+3 Reportaufruf=Reportaufruf
+2 MIS-Reporte
+3 MIS-Reporte=MIS_Reporte
+3 Begriffsdefinitionen=Begriffsdefinitionen
+3 Dimensionen im MIS-Report=Dimensionen_im_MIS_Report
+3 Ausprägungen=Ausprägungen
+3 Maßzahlen=Maßzahlen
+3 Würfel=Würfel
+3 Multidimensionale Auswertung=Multidimensionale_Auswertung
+3 Hierarchien=Hierarchien
+3 Reporte zur Detailanalyse=Reporte zur Detailanalyse
+3 Weitere Begriffe=Weitere_Begriffe
+2 Benutzerdefinierte Reporte
+3 Transaktionen pro Operator=Beispiel_Transaktionen_pro_Operator
+3 Überprüfung der Dienstgüte=Beispiel_berpr_fung_der_Dienstg_te
+3 Transaktionen pro Zieldatenbank=Beispiel_Transaktionen_pro_Zieldatenbank
+2 Funktionen des MIS Report Designer
+3 Funktionen=Funktionen
+3 Öffnen eines MIS-Reports=Öffnen_eines_MIS_Reports
+3 Hinzufügen eines benutzerdefinierten Reports zum MIS-Menü=Hinzufügen_eines_benutzerdefinierten_Reports_zum_MIS_Menü
+3 Entfernen eines benutzerdefinierten Reports vom MIS-Menü=Entfernen_eines_benutzerdefinierten_Reports_vom_MIS_Menü
+3 Austausch von Reporten mit anderen Benutzern=Austausch_von_Reporten_mit_anderen_Benutzern
+3 Hinzufügen/Entfernen von Aufträgen zum automatischen Erstellen eines Reports (optional)=Hinzufügen_Entfernen_von_Aufträgen_zum_automatischen_Erstellen_eines_Reports_optional
+2 Problemdiagnose und Fehlerbehebung
+3 Problemdiagnose und Fehlerbehebung=Problemdiagnose und Fehlerbehebung
+3 Allgemeine Tipps=Allgemeine_Tipps
+3 Hinweise und Fehlermeldungen beim Start des MIS Report Designer=Hinweise_und_Fehlermeldungen_beim_Start_des_MIS_Report_Designer
+3 Hinweise und Fehlermeldungen beim Öffnen von Reporten=Hinweise_und_Fehlermeldungen_beim_Öffnen_von_Reporten
+3 Hinweise und Fehlermeldungen beim Hinzufügen und Entfernen von benutzerdefinierten Reporten=Hinweise_und_Fehlermeldungen_beim_Hinzufügen_und_Entfernen_von_benutzerdefinierten_Reporten
+3 Hinweise und Fehlermeldungen beim Aufruf des Dialogs "Aufträge"=Hinweise_und_Fehlermeldungen_beim_Aufruf_des_Dialogs_Aufträge
+3 Hinweise und Fehlermeldungen beim Hinzufügen oder Entfernen von Aufträgen=Hinweise_und_Fehlermeldungen_beim_Hinzufügen_oder_Entfernen_von_Aufträgen
+3 Allgemeine Hinweise und Fehlermeldungen=Allgemeine_Hinweise_und_Fehlermeldungen

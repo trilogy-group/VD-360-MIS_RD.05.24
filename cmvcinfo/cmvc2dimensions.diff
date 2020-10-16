@@ -1,0 +1,3073 @@
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/build.bat /home/mis/mba/c2d-stage/MIS_RD.05.24/build.bat
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/build.bat	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/build.bat	Tue Jun 10 10:31:49 2008
+@@ -1,9 +1,7 @@
+ @echo off
+ 
+ rem # ----------------------------------------------------------------------------------------
+-rem #  CMVCwhat     : %W%
+-rem #  SCCSid       : %I%
+-rem #  SCCSdelta    : %E% %U%
++rem # WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ rem #  Maintained by: 
+ rem #  Description  : BuildScript für Excel Frontend
+ rem #  Keywords     :
+Only in /home/mis/mba/c2d-stage/MIS_RD.05.24: cmvcinfo
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/Info.txt /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/Info.txt
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/Info.txt	Tue Jun 10 10:31:42 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/Info.txt	Tue Jun 10 10:31:47 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : 
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Description  : 
+ #
+@@ -19,7 +17,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ Dieses File enthält nur den what pointer. Es wird bei der Lieferung in das 
+ support-Verzeichnis kopiert damit das RuntimeLevelTool das ReleaseInfo erstellen kann.
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/Makefile	Tue Jun 10 10:31:48 2008
+@@ -2,11 +2,9 @@
+ #
+ # Project      : MISR_EXCEL
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by: 
+ #
+@@ -26,7 +24,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ #>>  1. Fill In:   all Units of this project
+ 
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/help/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/help/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/help/Makefile	Tue Jun 10 10:31:43 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/help/Makefile	Tue Jun 10 10:31:47 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : HELP
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/help/de/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/help/de/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/help/de/Makefile	Tue Jun 10 10:31:43 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/help/de/Makefile	Tue Jun 10 10:31:47 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : HELP_DE
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by: mac 
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/help/en/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/help/en/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/help/en/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/help/en/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : HELP_EN
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by: 
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/miscomp.make /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/miscomp.make
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/miscomp.make	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/miscomp.make	Tue Jun 10 10:31:49 2008
+@@ -2,11 +2,9 @@
+ #
+ # Project      : MISR_EXCEL
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by: 
+ #
+@@ -23,7 +21,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ clean:
+ ifdef MKDIR_LIST
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/mishead.make /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/mishead.make
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/mishead.make	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/mishead.make	Tue Jun 10 10:31:49 2008
+@@ -2,11 +2,9 @@
+ #
+ # Project      : MISR_EXCEL
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by: 
+ #
+@@ -24,7 +22,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ ##############   global setting    ########################################
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/mistail.make /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/mistail.make
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/mistail.make	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/mistail.make	Tue Jun 10 10:31:49 2008
+@@ -2,11 +2,9 @@
+ #
+ # Project      : MISR_EXCEL
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by: 
+ #
+@@ -19,7 +17,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #--------- Rules  --------------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/setup/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/setup/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/setup/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/setup/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : SETUP
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/setup/de/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/setup/de/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/setup/de/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/setup/de/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : SETUP DE
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/setup/en/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/setup/en/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/setup/en/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/setup/en/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : SETUP EN
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/AddReport.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/AddReport.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/AddReport.frm	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/AddReport.frm	Tue Jun 10 10:31:46 2008
+@@ -15,11 +15,9 @@
+ Attribute VB_Exposed = False
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: mac
+ '
+@@ -44,7 +42,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ '-------------------------------------------------------------
+ ' Description   : OK
+ '
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Main.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Main.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Main.bas	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Main.bas	Tue Jun 10 10:31:46 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basMain"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: 
+ '
+@@ -30,7 +28,7 @@
+ Dim mintReportType As Integer       'Query- oder Pivotreport
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ Global Const cAppName = "MIS"
+ 'Fehlerkonstanten
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS createReport
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Pivot.cls /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Pivot.cls
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Pivot.cls	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Pivot.cls	Tue Jun 10 10:31:46 2008
+@@ -9,11 +9,9 @@
+ Attribute VB_Exposed = False
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -39,7 +37,7 @@
+ Dim mcolSettings As Collection      'alle bereits erfaßten Registryeinträge
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 'Zeitauflösung
+ Const cTimeResDay = 1
+ Const cTimeResQuarter = 2
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Query.cls /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Query.cls
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Query.cls	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Query.cls	Tue Jun 10 10:31:46 2008
+@@ -9,11 +9,9 @@
+ Attribute VB_Exposed = False
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -39,7 +37,7 @@
+ Dim mcolSettings As Collection      'alle bereits erfaßten Registryeinträge
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 'Zeitauflösung
+ Const cTimeResDay = 1
+ Const cTimeResQuarter = 2
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/RegEntry.cls /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/RegEntry.cls
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/RegEntry.cls	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/RegEntry.cls	Tue Jun 10 10:31:46 2008
+@@ -4,11 +4,9 @@
+ Attribute VB_Exposed = False
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: 
+ '
+@@ -36,7 +34,7 @@
+ Dim mintPropType As Integer     'Document Property Datentyp
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ '-------------------------------------------------------------
+ ' Description   :
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Review.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Review.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/Review.frm	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/Review.frm	Tue Jun 10 10:31:46 2008
+@@ -17,11 +17,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: 
+ '
+@@ -45,7 +43,7 @@
+ Dim mblnAccept As Boolean       'gibt an ob Einstellungen übernommen werden sollen
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ '-------------------------------------------------------------
+ ' Description   :
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/ThisWorkbook.cls /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/ThisWorkbook.cls
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/ThisWorkbook.cls	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/ThisWorkbook.cls	Tue Jun 10 10:31:46 2008
+@@ -5,11 +5,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: 
+ '
+@@ -35,7 +33,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ '-------------------------------------------------------------
+ ' Description   : entfernt Buttonleiste Create Report
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/xlmake.xlp /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/xlmake.xlp
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/createReport/xlmake.xlp	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/createReport/xlmake.xlp	Tue Jun 10 10:31:46 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basMake"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: 
+ '
+@@ -29,7 +27,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ 
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS Register
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/de/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/de/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/de/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/de/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS Register
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/de/constants.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/de/constants.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/de/constants.bas	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/de/constants.bas	Tue Jun 10 10:31:45 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basConstants"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: mac
+ '
+@@ -29,7 +27,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'Statusmeldungen
+ 
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/en/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/en/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/en/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/en/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS Register
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/en/constants.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/en/constants.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/en/constants.bas	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/en/constants.bas	Tue Jun 10 10:31:46 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basConstants"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -29,7 +27,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'Statusmeldungen
+ 
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/info.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/info.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/info.frm	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/info.frm	Tue Jun 10 10:31:45 2008
+@@ -39,11 +39,9 @@
+ Attribute VB_Exposed = False
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -67,7 +65,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ '-------------------------------------------------------------
+ ' Description   :
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/main.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/main.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/register/main.bas	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/register/main.bas	Tue Jun 10 10:31:46 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basMain"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -43,7 +41,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 'Registry key constants
+ Public Const HKEY_CLASSES_ROOT = &H80000000
+ Public Const HKEY_CURRENT_USER = &H80000001
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/scripts/convert.vbs /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/scripts/convert.vbs
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/scripts/convert.vbs	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/scripts/convert.vbs	Tue Jun 10 10:31:46 2008
+@@ -1,11 +1,9 @@
+ '
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -40,7 +38,7 @@
+ Dim strNewText
+ 
+ 'Declare constants
+-Private Const what = "@(#) %W%, %I%"
++Private Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ Const cstrOldText = "%Project%\mis"  'Text der ersetzt werden muss
+ 
+ 
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/scripts/sendkey.vbs /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/scripts/sendkey.vbs
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/scripts/sendkey.vbs	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/scripts/sendkey.vbs	Tue Jun 10 10:31:46 2008
+@@ -1,10 +1,8 @@
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -24,7 +22,7 @@
+ 'Options
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'Declare variables
+ Dim wshShell
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/scripts/txt2xls.vbs /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/scripts/txt2xls.vbs
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/scripts/txt2xls.vbs	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/scripts/txt2xls.vbs	Tue Jun 10 10:31:46 2008
+@@ -1,7 +1,5 @@
+ '------------------------------------------------------------------------
+-' CMVCwhat     : %W%
+-' SCCSid       : %I%
+-' SCCSdelta    : %E% %U%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ ' Maintained by: kk
+ ' Description  : Script setzt ASCII Text Datei in Excel VBA Makro um und führt es aus
+ ' Keywords     :
+@@ -13,7 +11,7 @@
+ Option Explicit
+ 
+ 'Konstanten
+-Private Const what = "@(#) %W%, %I%"
++Private Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ Const cMakefileName = "xlmake.xlp"
+ Const cXlsMakefileName = "xlmake.xls"
+ Const vbext_ct_StdModule = 1
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/IsUn32ex.cpp /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/IsUn32ex.cpp
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/IsUn32ex.cpp	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/IsUn32ex.cpp	Tue Jun 10 10:31:45 2008
+@@ -1,174 +0,0 @@
+-/*------------------------------------------------------------------------------------
+-ISUN32EX.CPP 
+-
+-  This is a 32bit program for user-enhanced uninstallation.  It will be launched by 
+-  IsStub32.exe which can be found under your Installshield Express product directory.
+-
+-  If you want to perform any processing before normal unInstallShield is launched, 
+-  add your operation in PreUninst function.  If you want to do any extra uninstall 
+-  after the normal unInstallShield is finished, add your operation in PostUninst 
+-  function.  Both PreUninst and PostUninst are defined in YourCode.h.
+-
+-------------------------------------------------------------------------------------*/
+-
+-#include <windows.h>
+-#include "resource.h"
+-#include "misuninst.h"
+-
+-#ifdef GERMAN
+-  #include "de\constants.h"
+-#else
+-  #include "en\constants.h"
+-#endif
+-
+-HINSTANCE hInst;
+-LPTSTR lpCmdLine;
+-
+-BOOL RunUninst(void);
+-
+-int WINAPI WinMain (HINSTANCE hInstance, HINSTANCE hPrevInstance,
+-                    PSTR szCmdLine, int iCmdShow)
+-{
+-	static char szAppName[] = "IsUn32Ex" ;
+-	HWND        hwnd ;
+-	MSG         msg ;
+-	WNDCLASSEX  wndclass ;
+-	
+-	
+-	//store commandline in global variable
+-	lpCmdLine=szCmdLine;
+-
+-#ifdef _DEBUG
+-	MessageBox(NULL,lpCmdLine,"Command line arguments received by IsUn32Ex.exe",MB_OK);
+-#endif
+-	 	 
+-	hInst=hInstance;
+-	
+-	wndclass.cbSize        = sizeof (wndclass) ;
+-	wndclass.style         = CS_HREDRAW | CS_VREDRAW|CS_DBLCLKS ;
+-	wndclass.lpfnWndProc   = WndProc ;
+-	wndclass.cbClsExtra    = 0 ;
+-	wndclass.cbWndExtra    = 0 ;
+-	wndclass.hInstance     = hInstance ;
+-	wndclass.hIcon         = LoadIcon (hInstance,MAKEINTRESOURCE (IDI_ICON1)) ;
+-	wndclass.hCursor       = LoadCursor (NULL, IDC_ARROW) ;
+-	wndclass.hbrBackground = (HBRUSH) GetStockObject (WHITE_BRUSH) ;
+-	wndclass.lpszMenuName  = NULL ;
+-	wndclass.lpszClassName = szAppName;
+-	wndclass.hIconSm       = LoadIcon (hInstance,MAKEINTRESOURCE (IDI_ICON1)) ;
+-	wndclass.lpszMenuName  = NULL;
+-	
+-    RegisterClassEx (&wndclass) ;
+-	
+-    hwnd = CreateWindow (szAppName,     // window class name
+-		"IsUn32Ex",			// window caption
+-		WS_OVERLAPPEDWINDOW,// window style(no input)
+-		0,				    // initial x position
+-		0,					// initial y position
+-		0,					// initial x size height
+-		0,					// initial y size width
+-		NULL,               // parent window handle
+-		NULL,		        // window menu handle
+-		hInstance,          // program instance handle
+-		NULL) ;		        // creation parameters
+-    
+-	
+-	ShowWindow (hwnd, SW_HIDE);
+-	
+-	
+-	while (GetMessage (&msg, NULL, 0, 0)){
+-		TranslateMessage (&msg) ;
+-		DispatchMessage (&msg) ;
+-	}
+-	return msg.wParam ;
+-}
+-
+-LRESULT CALLBACK WndProc (HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam)
+-{
+-	MSG		     msg ;
+-	
+-	switch (iMsg){
+-		
+-	case WM_CREATE:
+-		//wait for the IsStub32.exe to unload
+-		while(TRUE){
+-			if(PeekMessage(&msg,NULL,0,0,PM_REMOVE)){
+-				if(msg.message==WM_QUIT){
+-					break;
+-				}
+-				TranslateMessage(&msg);
+-				DispatchMessage(&msg);
+-			}
+-			else{
+-				if(!FindWindow("IsStubCls32", "IsStubWin32")){
+-					break;
+-				}
+-			}
+-		}
+-
+-		// Run PreUninst if you need any pre-processing before normal unInstallShield
+-		if(PreUninst()==0){
+-			HandleError(IDS_ERR_PREUNINST);
+-			return 0;
+-		}
+-
+-		// Run normal unInstallShield, do NOT delete or comment out this section
+-		if(RunUninst()==0){
+-			HandleError(IDS_ERR_LAUNCHAPP);
+-			return 0;
+-		}
+-
+-		// Run PostUninst if you need any post-processing after normal unInstallShield
+-		if(PostUninst()==0){
+-			HandleError(IDS_ERR_POSTUNINST);
+-			return 0;
+-		}
+-		PostQuitMessage(0);
+-		return 0;
+-		
+-	case WM_DESTROY:
+-		PostQuitMessage(0);
+-		return 0;
+-        
+-	}
+-    return DefWindowProc (hwnd, iMsg, wParam, lParam) ;
+-}
+-
+-
+-/*------------------------------------------------------------------------------
+-RunUninst()
+-
+-  Combines the module name and commandline into one string, then launches the 
+-  32 bit uninstaller. This function does not return until unInstallShield is 
+-  done.
+--------------------------------------------------------------------------------*/
+-BOOL RunUninst(){
+-	TCHAR szFullCmdLine[(_MAX_PATH * 3)+8]; //Module + Logfile + DLL + swithches
+-	PROCESS_INFORMATION ProcInfo;
+-	STARTUPINFO StartupInfo;
+-	BOOL bRval;
+-	
+-	GetStartupInfo(&StartupInfo);
+-	lstrcpy(szFullCmdLine, cUninstProgramm.c_str()); 
+-	lstrcat(szFullCmdLine," "); 
+-	
+-	//append commandline to module name
+-	lstrcat(szFullCmdLine,lpCmdLine);
+-
+-#ifdef _DEBUG
+-	MessageBox(NULL,szFullCmdLine,"Full command used to run regular uninstall in IsUn32Ex.exe",MB_OK);
+-#endif
+-	
+-	bRval=CreateProcess(NULL,szFullCmdLine,NULL,NULL,
+-		FALSE, CREATE_NEW_PROCESS_GROUP,
+-		NULL, NULL, &StartupInfo, &ProcInfo);
+-	
+-	WaitForSingleObject(ProcInfo.hThread,INFINITE);
+-	return bRval; 
+-}
+-
+-
+-
+-
+-
+-
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS Uninstall
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/de/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/de/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/de/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/de/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS Uninstall
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/de/constants.h /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/de/constants.h
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/de/constants.h	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/de/constants.h	Tue Jun 10 10:31:45 2008
+@@ -1,41 +0,0 @@
+-/*
+-'----------------------------------------------------------------------------------------
+-'
+-' CMVCwhat     : %W%
+-'
+-' SCCSid       : %I%
+-'
+-' SCCSdelta    : %E% %U%
+-'
+-' Maintained by: jer
+-'
+-' Description  : Constants file for Uninstall
+-'
+-' Keywords     :
+-'
+-' Reference    :
+-'
+-' Copyright    : varetis AG, Grillparzer Str.10, 81675 Muenchen, Germany
+-'
+-'----------------------------------------------------------------------------------------
+-'
+-*/
+-
+-#include <string>
+-
+-using namespace std;
+-const string cTailor ="tailor";
+-const string cModules = "modules";
+-const string cLogPath = "log";
+-const string cVersion ="MIS_RD.05.24";
+-const string cAtProgramm = "schtasks.exe";
+-const string cVaretisTask = "varetisMISRD";
+-const string cUninstProgramm = "unin0407.exe";
+-const string cExcelAddInManager = "Excel\\Add-In Manager";
+-const string cExcelInstallAddins = "Excel\\Options";
+-const string ctitNoAdminRights = "MIS: Keine Administrationsrechte";
+-const string cproNoAdminRights = "Sie haben nicht die nötigen Administrationsrechte um die Aufträge zu löschen.";
+-const string ctitNoScheduler = "MIS: Zeitplandienst läuft nicht";
+-const string cproNoScheduler = "Sie können Aufträge nur löschen, wenn der Zeitplandienst läuft.";
+-const string ctitExcelRunning = "MIS: Excel läuft.";
+-const string cproExcelRunning = "Sie können nicht deinstallieren, so lange Excel noch läuft. Bitte schließen Sie Excel und starten Sie das Deinstallationsprogramm erneut.";
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/en/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/en/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/en/Makefile	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/en/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS Uninstall
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/en/constants.h /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/en/constants.h
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/en/constants.h	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/en/constants.h	Tue Jun 10 10:31:45 2008
+@@ -1,42 +0,0 @@
+-/*
+-'----------------------------------------------------------------------------------------
+-'
+-' CMVCwhat     : %W%
+-'
+-' SCCSid       : %I%
+-'
+-' SCCSdelta    : %E% %U%
+-'
+-' Maintained by: jer
+-'
+-' Description  : Constants file for Uninstall
+-'
+-' Keywords     :
+-'
+-' Reference    :
+-'
+-' Copyright    : varetis AG, Grillparzer Str.10, 81675 Muenchen, Germany
+-'
+-'----------------------------------------------------------------------------------------
+-'
+-*/
+-
+-#include <string>
+-
+-using namespace std;
+-const string cTailor ="tailor";
+-const string cModules = "modules";
+-const string cLogPath = "log";
+-const string cVersion ="MIS_RD.05.24";
+-const string cAtProgramm = "schtasks.exe";
+-const string cVaretisTask = "varetisMISRD";
+-const string cUninstProgramm = "uninst.exe";
+-const string cExcelAddInManager = "Excel\\Add-In Manager";
+-const string cExcelInstallAddins = "Excel\\Options";
+-const string ctitNoAdminRights = "MIS: No administration rights";
+-const string cproNoAdminRights = "Cannot remove scheduled tasks without administration rights.";
+-const string ctitNoScheduler = "MIS: Scheduler not running";
+-const string cproNoScheduler = "You can only remove scheduled tasks when the scheduler is running.";
+-const string ctitExcelRunning = "MIS: Excel running.";
+-const string cproExcelRunning = "Cannot uninstall while Excel is running. Please close Excel and restart uninstall programm.";
+-
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/misuninst.h /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/misuninst.h
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/misuninst.h	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/misuninst.h	Tue Jun 10 10:31:45 2008
+@@ -1,43 +0,0 @@
+-/*
+-'----------------------------------------------------------------------------------------
+-'
+-' CMVCwhat     : %W%
+-'
+-' SCCSid       : %I%
+-'
+-' SCCSdelta    : %E% %U%
+-'
+-' Maintained by: jer
+-'
+-' Description  : Erweiterung von Uninstall um Registry und Tailor files aufzuraeumen
+-'
+-' Keywords     :
+-'
+-' Reference    :
+-'
+-' Copyright    : varetis AG, Grillparzer Str.10, 81675 Muenchen, Germany
+-'
+-'----------------------------------------------------------------------------------------
+-'
+-*/
+-
+-#ifndef _MISUNINST_H_
+-#define _MISUNINST_H_
+-
+-#include <string>
+-
+-using namespace std;
+-
+-// Function prototypes
+-LRESULT CALLBACK WndProc (HWND,UINT,WPARAM,LPARAM);
+-BOOL PostUninst(void);
+-BOOL PreUninst(void);
+-void HandleError(DWORD);
+-
+-// Global variables
+-extern HINSTANCE hInst;
+-extern LPTSTR lpCmdLine;
+-
+-#endif // _MISUNIST_H_
+-
+-
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/misunist.cpp /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/misunist.cpp
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/misunist.cpp	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/misunist.cpp	Tue Jun 10 10:31:45 2008
+@@ -1,1135 +0,0 @@
+-/*
+-'----------------------------------------------------------------------------------------
+-'
+-' CMVCwhat     : %W%
+-'
+-' SCCSid       : %I%
+-'
+-' SCCSdelta    : %E% %U%
+-'
+-' Maintained by: jer
+-'
+-' Description  : Erweiterung von Uninstall um Registry und Tailor files aufzuraeumen
+-'
+-' Keywords     :
+-'
+-' Reference    :
+-'
+-' Copyright    : varetis AG, Grillparzer Str.10, 81675 Muenchen, Germany
+-'
+-'----------------------------------------------------------------------------------------
+-'
+-*/
+-
+-#include <stdio.h>
+-#include <stdlib.h>
+-#include <direct.h>                      // Directory functions (_rmdir etc.)
+-#include <io.h>                          // _findnext etc.
+-#include <string.h>                      // char * string functions
+-#include <string>                        // String class
+-// #include <iostream>                      // cin, cout (debugging)
+-#include <vector>                        // Vector class
+-#include <windows.h>                     // Windows functions
+-#include <lm.h>                          // GetUserInfo, NERR_SUCCESS, NetApiFreeBuffer
+-#include <initguid.h>                    // For task scheduler, to initialize CLSIDs
+-#include <mstask.h>                      // Task Scheduler stuff
+-#include <msterr.h>                      // Task scheduler errors
+-#include <psapi.h>                       // Process API functions
+-#include <winsvc.h>                      // Windows Service functions
+-
+-#ifdef GERMAN
+-  #include "de\constants.h"
+-#else
+-  #include "en\constants.h"
+-#endif
+-
+-#include "misuninst.h"
+-
+-using namespace std;
+- 
+-BOOL IsExcelRunning();
+-BOOL IsSchedulerRunning();
+-BOOL CreateChildProcess(string strCommand); 
+-HKEY openKey(HKEY phTop, string pstrKeyName);
+-string getValue(HKEY phKey, string pstrValueName);
+-int deleteTailorFiles(string pstrInstallPath);
+-BOOL findMIS();
+-BOOL IsUserLocalAdmin();
+-BOOL TasksExist();
+-BOOL TasksExistAtSvc();
+-BOOL TasksExistMSTask();
+-BOOL getFiles(string pstrPath, vector <string> *pstrFiles, string strType);
+-string getExcelVersion();
+-
+-// Declare constants
+-static const string what =       "@(#) %W%, %I%";
+-static const int BUFSIZE =					4096;  // Buffer size to read from 'at.exe' process
+-static const int MAX_VALUE_NAME =            128;  // Maximal length of a registry value name
+-static const int MAXPROC =                  1024;  // Maximum number of processes to search
+-static const int INFOBUFFERSIZE =           1024;
+-#define SCHED_SERVICE_NAME      TEXT("Schedule")
+-
+-// Global variables
+-string strInstallPath;                   // MIS-RD install path as in the registry
+-vector <string> strMISTasks;               // The available tasks in the folder
+-
+-BOOL PreUninst(void)
+-{
+-/*
+-To Do--Add your code here to do any necessary processing
+-BEFORE the uninstaller is launched. If you return FALSE from
+-this function HandleError is called with nErr=IDS_ERR_PREUNINST
+-	*/
+-#ifdef _DEBUG
+-	MessageBox(GetFocus(),"before unInstallShield","",MB_OK);	
+-#endif
+-
+-	LONG lngResult;                      // Result of registry calls (should be ERROR_SUCCESS)
+-	HKEY hMIS;                           // Handle of a registry key for the main MIS_RD key
+-	HKEY hGeneral;                       // Handle of a registry key for the MIS General key
+-	string strMisKey;                    // The path of the MIS_RD key       
+-	string strGeneralKey;                // The path of the General key
+-	string strMenuKey;                   // The path of the Menu key
+-    DWORD dwcValueName = MAX_VALUE_NAME; // The maximum length of a value name in the registry
+-    CHAR     KeyName[MAX_PATH];          // The name of a key
+-	vector <string> reg_values;          // A vector of registry values
+-	vector <string> reg_keys;            // A vector of registry keys
+-	int i;
+-	
+-	strMisKey = "Software\\VB and VBA Program Settings\\" + cVersion;
+-
+-	// Open 'main' MIS_RD key
+-	hMIS = openKey(HKEY_CURRENT_USER, strMisKey);
+-	
+-	if(hMIS)
+-	{
+-
+-		// Enumerate Keys, add results to string vector 'reg_keys'
+-		for (i=0, lngResult = ERROR_SUCCESS; lngResult == ERROR_SUCCESS; i++)
+-		{
+-		  lngResult = RegEnumKey (hMIS, i,
+-					KeyName, MAX_PATH);
+-
+-		  if (lngResult == (DWORD)ERROR_SUCCESS)
+-		  {
+-			  reg_keys.push_back(KeyName);
+-		  }
+-		}
+-
+-		// Check if Keys were found
+-		if(!reg_keys.size())
+-		{
+-			strMenuKey = "";
+-			strGeneralKey = "";
+-		}
+-
+-		// Find General  and Menu Keys
+-		for(i=0; i<reg_keys.size();i++)
+-		{
+-			if(reg_keys[i] == "menu" || reg_keys[i] == "Menu")
+-			{
+-				strMenuKey = strMisKey + "\\" + reg_keys[i];
+-			}
+-			else if(reg_keys[i] == "general" || reg_keys[i] == "General")
+-			{
+-				strGeneralKey = strMisKey + "\\" + reg_keys[i];
+-			}
+-			else
+-			{
+-//				cout << "Unknown key found " << reg_keys[i] << endl;
+-			}
+-		}
+-		// Open Key for 'General'
+-		if(strGeneralKey != "")
+-		{
+-			hGeneral = openKey(HKEY_CURRENT_USER, strGeneralKey);
+-			if(hGeneral)
+-			{
+-				// Get install path from 'InstallPath' in the General Key
+-				strInstallPath = getValue(hGeneral, "InstallPath");
+-				// close General submenu
+-				lngResult = RegCloseKey(hGeneral);
+-			}
+-		}
+-
+-		// Close MIS_RD Key
+-		lngResult = RegCloseKey(hMIS);
+-	}
+-
+-	// No uninstall without admin rights
+-	if(!IsUserLocalAdmin())
+-	{
+-		MessageBox(GetFocus(), cproNoAdminRights.c_str(), ctitNoAdminRights.c_str(), MB_OK | MB_ICONWARNING);	
+-		return FALSE;
+-	}		
+-
+-	// 0 Tokens means 'scheduler service is not started','No scheduled tasks' or no MIS_RD entries
+-	if(TasksExist() && !IsSchedulerRunning())
+-	{
+-		MessageBox(GetFocus(), cproNoScheduler.c_str(), ctitNoScheduler.c_str(), MB_OK | MB_ICONWARNING);	
+-		return FALSE;
+-	}
+-
+-	if(IsExcelRunning())
+-	{	
+-		MessageBox(GetFocus(), cproExcelRunning.c_str(), ctitExcelRunning.c_str(), MB_OK | MB_ICONWARNING);
+-		return FALSE;
+-	}
+-
+-	return TRUE; //Launch unInstallShield
+-}
+-
+-
+-BOOL IsExcelRunning()
+-{
+-	int i;
+-    DWORD dwProcessIds[MAXPROC];
+-    DWORD dwProcessCount;
+-	BOOL blnResult;
+-	HANDLE hProcess;
+-	HMODULE hmModules[MAXPROC];
+-    DWORD dwModulesCount;
+-    char cFileName[MAX_PATH];
+-	string strFileName;
+-
+-
+-	// Get current processes
+-    blnResult = EnumProcesses(dwProcessIds, sizeof(dwProcessIds), &dwProcessCount);
+-
+-    dwProcessCount /= sizeof(dwProcessIds[0]);
+-
+-    if ( !blnResult ) 
+-	{
+-		MessageBox(GetFocus(), "Can't get processes", ctitNoScheduler.c_str(), MB_OK);
+-        return false;
+-    }  
+-
+-	// Get modules for each process
+-    for ( i=0; i<dwProcessCount; i++) 
+-	{
+-        hProcess = OpenProcess(
+-            PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, 
+-            FALSE, 
+-            dwProcessIds[i]);
+-
+-        if(EnumProcessModules(hProcess, hmModules, sizeof(hmModules), &dwModulesCount))
+-		{
+-
+-			dwModulesCount /= sizeof(hmModules[0]);
+-
+-			if (GetModuleFileNameEx(hProcess, hmModules[0], cFileName, sizeof(cFileName))) 
+-			{	
+-
+-				GetModuleBaseName(hProcess,
+-								  hmModules[0],
+-								  cFileName,
+-								  sizeof(cFileName));
+-
+-				if(strcmp(strlwr((char *)cFileName),"excel.exe") == 0)
+-				{
+-					// Found excel
+-					return TRUE;
+-				}
+-
+-			}
+-		}
+-        CloseHandle(hProcess);
+-    }
+-	return FALSE;
+-
+-
+-}
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   :   Create a new process calling the given command
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-
+-BOOL CreateChildProcess(string strCommand) 
+-{ 
+-   PROCESS_INFORMATION piProcInfo; 
+-   STARTUPINFO siStartInfo; 
+-   string strComm;
+-
+-   strComm = "cmd /c " + strCommand;
+- 
+-// Set up members of STARTUPINFO structure. 
+- 
+-   ZeroMemory( &siStartInfo, sizeof(STARTUPINFO) );
+-   siStartInfo.cb = sizeof(STARTUPINFO); 
+- 
+-// Create the child process. 
+- 
+-   return CreateProcess(NULL, 
+-      (char *)strComm.c_str(),       // command line 
+-      NULL,          // process security attributes 
+-      NULL,          // primary thread security attributes 
+-      TRUE,          // handles are inherited 
+-      0,             // creation flags 
+-      NULL,          // use parent's environment 
+-      NULL,          // use parent's current directory 
+-      &siStartInfo,  // STARTUPINFO pointer 
+-      &piProcInfo);  // receives PROCESS_INFORMATION 
+-}
+-
+- 
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   :   Opens the given Key and returns its handle
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-HKEY openKey(HKEY phTop, string pstrKeyName)
+-{
+-	HKEY hMIS;
+-	LONG lngResult;
+-
+-	//	lngResult = RegOpenKeyEx(HKEY_CURRENT_USER, (LPCTSTR)strMenuKey.c_str(), 0,KEY_ALL_ACCESS, &hMenu);
+-
+-	lngResult = RegOpenKeyEx(phTop, (LPCTSTR)pstrKeyName.c_str(), 0, KEY_ALL_ACCESS, &hMIS);
+-    if (lngResult != ERROR_SUCCESS)
+-    {
+-      if (lngResult == ERROR_ACCESS_DENIED) 
+-	  {
+-//		  cout << "Access to Key denied" << endl;
+-		  return 0;
+-      }
+-      else 
+-	  {
+-//		  cout << "openKey: Error opening Key " << pstrKeyName << endl;
+-		  return 0;
+-      }
+-	}
+-	return hMIS;
+-}
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   :   Returns the value of the given key as a string
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-string getValue(HKEY phKey, string pstrValueName)
+-{
+-	DWORD  dwType;
+-	BYTE   *bData;
+-	DWORD  cbData;
+-	char *chConvert;
+-	LONG lngResult;
+-    CHAR   ClassName[MAX_PATH];
+-    DWORD  dwcClassLen = MAX_PATH;
+-    DWORD  dwcSubKeys;
+-    DWORD  dwcMaxSubKey;
+-    DWORD  dwcMaxClass;
+-    DWORD  dwcValues;
+-    DWORD  dwcMaxValueName;
+-    DWORD  dwcMaxValueData;
+-    DWORD  dwcSecDesc;
+-    FILETIME  ftLastWriteTime;
+-	string strResult;
+-	HANDLE hHeap;
+-
+-
+-    hHeap   = HeapCreate (0, 0, 0);
+-	lngResult =
+-	RegQueryInfoKey (phKey,              // Key handle.
+-                   ClassName,         // Buffer for class name.
+-                   &dwcClassLen,      // Length of class string.
+-                   NULL,              // Reserved.
+-                   &dwcSubKeys,       // Number of sub keys.
+-                   &dwcMaxSubKey,     // Longest sub key size.
+-                   &dwcMaxClass,      // Longest class string.
+-                   &dwcValues,        // Number of values for this key.
+-                   &dwcMaxValueName,  // Longest Value name.
+-                   &dwcMaxValueData,  // Longest Value data.
+-                   &dwcSecDesc,       // Security descriptor.
+-                   &ftLastWriteTime); // Last write time.
+-
+-   if (lngResult != ERROR_SUCCESS)
+-   {
+-	   // Couldn't query info
+-	   return "";
+-   }
+-
+-   bData = (BYTE *)HeapAlloc (hHeap, 0, dwcMaxValueData);
+-   cbData = dwcMaxValueData;
+-
+-
+-	// Query Value
+-	lngResult = RegQueryValueEx(phKey, (LPCTSTR)pstrValueName.c_str(), NULL, &dwType, bData, &cbData);
+-	if(lngResult != (DWORD)ERROR_SUCCESS)
+-	{
+-        // No pstrValueName found
+-		return "";
+-	}
+-
+-	// Wir erwarten eigentlich nur Strings in unsere Registry eintraege!
+-	switch (dwType)
+-    {
+-//    REG_NONE                    ( 0 )   // No value type
+-//    REG_SZ                      ( 1 )   // Unicode nul terminated string
+-//    REG_EXPAND_SZ               ( 2 )   // Unicode nul terminated string
+-                                            // (with environment variable references)
+-//    REG_BINARY                  ( 3 )   // Free form binary
+-//    REG_DWORD                   ( 4 )   // 32-bit number
+-//    REG_DWORD_LITTLE_ENDIAN     ( 4 )   // 32-bit number (same as REG_DWORD)
+-//    REG_DWORD_BIG_ENDIAN        ( 5 )   // 32-bit number
+-//    REG_LINK                    ( 6 )   // Symbolic Link (unicode)
+-//    REG_MULTI_SZ                ( 7 )   // Multiple Unicode strings
+-//    REG_RESOURCE_LIST           ( 8 )   // Resource list in the resource map
+-//    REG_FULL_RESOURCE_DESCRIPTOR ( 9 )  // Resource list in the hardware description
+-
+-    case REG_SZ:
+-		strResult = (char *)bData;
+-        break;
+-
+-    case REG_EXPAND_SZ:
+-		chConvert = (char *)malloc(256);
+-		ExpandEnvironmentStrings((char *)bData, chConvert, 256);
+-		strResult = (char *)chConvert;
+-		free(chConvert);
+-        break;
+-
+-	default:
+-		strResult = "";
+-		break;
+-	}   
+-	HeapFree (hHeap, 0, bData);
+-	return strResult;
+-}
+-
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   :   delete all files in sub-directory 'tailor' of given path
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-int deleteTailorFiles(string pstrInstallPath)
+-{
+-   string strTailorPath = "";                  // Path to the tailor files
+-   vector <string> strTailorFiles;
+-   int i;
+-
+-   strTailorPath = pstrInstallPath + "\\" + cTailor;
+-   if(!getFiles(strTailorPath, &strTailorFiles, "*.*"))
+-   {
+-	   return 0;
+-   }
+-
+-   for(i = 0; i<strTailorFiles.size(); i++)
+-   {
+-	   if( remove( strTailorFiles[i].c_str() ) == -1 )
+-	   {
+-	      perror( "Could not delete file! (Permissions?)" );
+-	   }
+-   }
+-	// Remove the tailor directory
+-	_rmdir(strTailorPath.c_str());
+-
+-   return 1;
+-
+-}
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   :   Return a vector containing the files in the given directory
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-BOOL getFiles(string pstrPath, vector <string> *pstrFiles, string strType)
+-{
+-   char chCurrentDir[_MAX_PATH];               // To restore current directory afterwards
+-   struct _finddata_t c_file;
+-   long hFile;
+-
+-	_getcwd(chCurrentDir, _MAX_PATH);
+-
+-   if (_chdir(pstrPath.c_str()))
+-   {
+-	   return FALSE;
+-   }
+-   else
+-   {
+-	  /* Find first file in current directory */
+-	  if( (hFile = _findfirst( strType.c_str(), &c_file )) == -1L )
+-	  {
+-		return FALSE;
+-	  }
+-	  else
+-	  {
+-		do
+-		{
+-			if( c_file.name[0] == '.')
+-			{
+-				continue;
+-			}
+-			if(pstrPath.at(pstrPath.length() - 1) == '\\')
+-			{
+-				pstrFiles->push_back(pstrPath + (string)c_file.name);
+-			}
+-			else
+-			{
+-				pstrFiles->push_back(pstrPath + "\\" + (string)c_file.name);
+-			}
+-
+-		}
+-        /* Find the rest of the files */
+-        while( _findnext( hFile, &c_file ) == 0 );
+-
+-		_findclose( hFile );
+-	  }
+-   }
+-	_chdir(chCurrentDir);
+-   return TRUE;
+-
+-}
+-
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   :   Return true if the modules directory still exists
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-BOOL findMIS()
+-{
+-   string strMisKey = "";             // string representing the MIS Key
+-   HKEY hMIS;                         // Handle to the MIS Key
+-
+-   	strMisKey = "Software\\VB and VBA Program Settings\\" + cVersion;
+-
+-	// Open 'main' MIS_RD key
+-	hMIS = openKey(HKEY_CURRENT_USER, strMisKey);
+-	
+-	if(hMIS)
+-	{
+-		RegCloseKey(hMIS);
+-		return TRUE;
+-	}
+-	else
+-	{
+-		RegCloseKey(hMIS);
+-		return FALSE;
+-	}
+-}
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   :   Return true if the current user has admin rights
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-
+-BOOL IsUserLocalAdmin()
+-{
+-	BOOL bIsAdmin = FALSE;
+-
+-	HANDLE hProcess, hAccessToken;
+-	UCHAR InfoBuffer[INFOBUFFERSIZE];
+-	PTOKEN_GROUPS ptgGroups = (PTOKEN_GROUPS)InfoBuffer;
+-	DWORD dwInfoBufferSize;
+-	PSID psidAdministrators;
+-	SID_IDENTIFIER_AUTHORITY siaNTAuthority = SECURITY_NT_AUTHORITY;
+-	UINT uCount;
+-
+-	hProcess = GetCurrentProcess();
+-	if(!OpenProcessToken(hProcess, TOKEN_READ, &hAccessToken))
+-	{
+-		return FALSE;
+-	}
+-
+-	bIsAdmin = GetTokenInformation(hAccessToken, 
+-	                               TokenGroups, 
+-								   InfoBuffer, 
+-								   INFOBUFFERSIZE, 
+-								   &dwInfoBufferSize);
+-	CloseHandle(hAccessToken);
+-
+-	if(!bIsAdmin)
+-	{
+-		return FALSE;
+-	}
+-
+-	if(!AllocateAndInitializeSid(&siaNTAuthority, 
+-		                         2, 
+-								 SECURITY_BUILTIN_DOMAIN_RID, 
+-								 DOMAIN_ALIAS_RID_ADMINS,
+-                                 0, 0, 0, 0, 0, 0, 
+-								 &psidAdministrators))
+-	{
+-		return FALSE;
+-	}
+-
+-	bIsAdmin = FALSE;
+-	for(uCount = 0; uCount < ptgGroups->GroupCount; uCount++)
+-	{
+-		if(EqualSid(psidAdministrators, ptgGroups->Groups[uCount].Sid))
+-		{
+-			bIsAdmin = TRUE;
+-			break;
+-		}
+-	}
+-
+-	FreeSid(psidAdministrators);
+-
+-	return bIsAdmin;
+-
+-}
+-
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   : Find out which Task Scheduler is installed and return
+-'                 either TasksExistAtSc or TasksExistMsTask
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-BOOL TasksExist()
+-{
+-	HKEY hResult;
+-	string strScheduleKey;
+-	string strAtOrTask;
+-
+-	strScheduleKey = "SYSTEM\\CurrentControlSet\\Services\\Schedule";
+-	hResult = openKey(HKEY_LOCAL_MACHINE, strScheduleKey);
+-	if(hResult)
+-	{
+-		strAtOrTask = getValue(hResult, "ImagePath");
+-		RegCloseKey(hResult);
+-		if((strAtOrTask.find("MSTask.exe") != string::npos) || (strAtOrTask.find("svchost.exe") != string::npos))
+-		{
+-			// Task Scheduler
+-			return TasksExistMSTask();
+-		}
+-		else
+-		{
+-			// At Scheduler
+-			return TasksExistAtSvc();
+-
+-		}
+-	}
+-	return FALSE;
+-}
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   : Return true if MIS scheduler tasks exist in the registry
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-BOOL TasksExistAtSvc()
+-{
+-	HKEY hResult;
+-	LONG lngResult;
+-    CHAR     KeyName[MAX_PATH];          // The name of a key
+-	string strScheduleKey;
+-	string strCommandLine;
+-	string strAtOrTask;
+-	vector <string> strTasks;
+-	int i;
+-
+-	strScheduleKey = "SYSTEM\\CurrentControlSet\\Services\\Schedule";
+-	hResult = openKey(HKEY_LOCAL_MACHINE, strScheduleKey);
+-	if(hResult)
+-	{
+-		// Enumerate Keys, add results to string vector strTasks
+-		for (i=0, lngResult = ERROR_SUCCESS; lngResult == ERROR_SUCCESS; i++)
+-		{
+-		  lngResult = RegEnumKey (hResult, i,
+-					  KeyName, MAX_PATH);
+-
+-		  if (lngResult == (DWORD)ERROR_SUCCESS)
+-		  {
+-			  strTasks.push_back(KeyName);
+-		  }
+-		}
+-		RegCloseKey(hResult);
+-
+-		// Check if Keys were found
+-		if(!strTasks.size())
+-		{
+-			// No entries in the Schedule list
+-			return FALSE;
+-		}
+-
+-		// Check the Commandline of each entry
+-		for (i=0; i<strTasks.size(); i++)
+-		{
+-			hResult = openKey(HKEY_LOCAL_MACHINE, strScheduleKey + "\\" + strTasks.at(i));
+-			strCommandLine = getValue(hResult, "Command");
+-			RegCloseKey(hResult);
+-			if(strCommandLine.find("startSchedule") != string::npos)
+-			{
+-				return TRUE;
+-			}
+-		}
+-	}
+-	return FALSE;
+-}
+-
+-/*
+-'-------------------------------------------------------------
+-' Description   : Return true if MIS scheduler tasks exist as .jobs
+-'
+-' Reference     :
+-'
+-' Parameter     :   
+-'
+-' Exception     :
+-'-------------------------------------------------------------
+-*/ 
+-BOOL TasksExistMSTask()
+-{
+-
+-	HKEY hResult;                           // Result of the registry calls
+-	string strTasksFolder;                  // The path of the jobs folder
+-	vector <string> strTasks;               // The available tasks in the folder
+-//	vector <string> strMISTasks;            // The tasks that are RD tasks
+-	ITaskScheduler  *g_pSchedulingAgent;    // The Task Scheduler object
+-    ITask *pITask;                          // A single Task object
+-    wchar_t *strwTaskName;                  // The name of a task in wide-char
+-	HRESULT hRes;                           // The result of the Task Scheduler API calls
+-    LPWSTR strwAppName;                     // The application that should be started in the task
+-    LPTSTR chAppName;                       // Application as a char *
+-	int i;
+-
+-	// Get the name of the Tasks folder from the registry
+-	hResult = openKey(HKEY_LOCAL_MACHINE, "SOFTWARE\\Microsoft\\SchedulingAgent");
+-	if(!hResult)
+-	{
+-		return FALSE;
+-	}
+-	strTasksFolder = getValue(hResult, "TasksFolder");
+-	RegCloseKey(hResult);
+-
+-	if(strTasksFolder == "")
+-	{
+-		return FALSE;
+-	}
+-	
+-	// Get all '*.job' files in the task folder (There are some hidden files as well!)
+-	if(!getFiles(strTasksFolder, &strTasks, "*.job"))
+-	{
+-		return FALSE;
+-	}
+-
+-	CoInitialize(NULL);
+-
+-	// Get a handle for the task scheduler object
+-	hRes = CoCreateInstance( CLSID_CSchedulingAgent, 
+-							NULL, 
+-							CLSCTX_INPROC_SERVER, 
+-							IID_ITaskScheduler, 
+-							(LPVOID*)&g_pSchedulingAgent);
+-
+-	if(hRes == ERROR_SUCCESS)
+-	{
+-
+-	  // Look at the Application Name for each task, to see if it contains 'startschedule'
+-	  // 'Activate' returns a ITask object for the given task
+-	  strMISTasks.clear();
+-	  for(i = 0; i<strTasks.size(); i++)
+-	  {
+-		  strwTaskName = (wchar_t *)malloc(256);
+-		  mbstowcs(strwTaskName, strTasks.at(i).c_str(), 256);
+-		  hRes = g_pSchedulingAgent->Activate(strwTaskName,
+-											IID_ITask,
+-											(IUnknown**) &pITask);
+- 
+-	      if (hRes != ERROR_SUCCESS)
+-		  {
+-			// wprintf(L"Failed calling ITaskScheduler::Activate: ");
+-			// Try the next one
+-			continue;
+-		  }
+-
+-		  hRes = pITask->GetApplicationName(&strwAppName);
+-		  pITask->Release();
+-
+-		  if (hRes != ERROR_SUCCESS)
+-		  {
+-			// wprintf(L"Failed calling ITask::GetApplicationName\n");
+-			// Try the next one
+-			continue;
+-		  }
+- 
+- 
+-		  // wprintf(L"Test Task is associated with the following parameters:\n");
+-		  // wprintf(L"  %s\n", lpwszParameters);
+-		  chAppName = (char *)malloc(256);
+-		  wsprintf(chAppName, "%S\n", strwAppName);
+-    	  if(((string)chAppName).find("startSchedule") != string::npos)
+-		  {
+-			  // This global vector is used to delete the tasks in PostUninstall!
+-		     strMISTasks.push_back(strTasks.at(i));
+-		  }
+-		  free(chAppName);
+-//		  free(strwAppName);
+-	  }
+-	}
+-    if (g_pSchedulingAgent)
+-    {
+-        g_pSchedulingAgent->Release();
+-        g_pSchedulingAgent = NULL;
+-    }
+-   
+-    // Unload the library, now that our pointer is freed.
+-
+-    CoUninitialize();
+-	if(strMISTasks.size() > 0)
+-	{
+-		return TRUE;
+-	}
+-	return FALSE;
+-
+-}
+-
+-BOOL IsSchedulerRunning()
+-{
+-    	SC_HANDLE   hSC = NULL;
+-        SC_HANDLE   hSchSvc = NULL;
+-
+-        hSC = OpenSCManager(NULL, NULL, SC_MANAGER_CONNECT);
+-
+-        if (hSC == NULL)
+-        {
+-            return GetLastError();
+-        }
+-
+-        hSchSvc = OpenService(hSC,
+-                              SCHED_SERVICE_NAME,
+-                              SERVICE_QUERY_STATUS);
+-
+-        CloseServiceHandle(hSC);
+-
+-        if (hSchSvc == NULL)
+-        {
+-            return GetLastError();
+-        }
+-
+-        SERVICE_STATUS SvcStatus;
+-
+-        if (QueryServiceStatus(hSchSvc, &SvcStatus) == FALSE)
+-        {
+-            CloseServiceHandle(hSchSvc);
+-            return GetLastError();
+-        }
+-
+-        if (SvcStatus.dwCurrentState == SERVICE_RUNNING || SvcStatus.dwCurrentState == SERVICE_PAUSED)
+-        {
+-            // The service is running or paused (delete is possible).
+-            CloseServiceHandle(hSchSvc);
+-            return TRUE;
+-        }
+-
+-        CloseServiceHandle(hSchSvc);
+-
+-        return FALSE;
+-}
+-
+-string getExcelVersion()
+-{
+-
+-	HKEY hResult;                           // Result of the registry calls
+-	string strExcelVersion;                 // The path of the jobs folder
+-
+-
+-	// Get the name of the Tasks folder from the registry
+-	hResult = openKey(HKEY_LOCAL_MACHINE, "SOFTWARE\\Classes\\Excel.Application\\CurVer");
+-	if(!hResult)
+-	{
+-		return FALSE;
+-	}
+-	strExcelVersion = getValue(hResult, "");
+-	strExcelVersion.replace(0, 18, "");
+-	strExcelVersion += ".0";
+-	RegCloseKey(hResult);
+-
+-	return strExcelVersion;
+-
+-}
+-
+-BOOL PostUninst(void)
+-{
+-/*
+-To Do--Add your code here to do any necessary processing
+-AFTER the uninstaller is launched. If you return FALSE from
+-this function HandleError is called with nErr=IDS_ERR_POSTUNINST
+-	*/
+-#ifdef _DEBUG
+-	MessageBox(GetFocus(),"after unInstallShield","",MB_OK);
+-#endif
+-	
+-	LONG lngResult;                      // Result of registry calls (should be ERROR_SUCCESS)
+-	HKEY hExcel;                         // Handle of a registry key for the Excel keys
+-	string strExcelKey;                  // The path of the Excel registry key
+-    DWORD dwcValueName = MAX_VALUE_NAME; // The maximum length of a value name in the registry
+-	CHAR  ValueName[MAX_VALUE_NAME];     // The name of a Value
+-	vector <string> reg_values;          // A vector of registry values
+-	vector <string> reg_keys;            // A vector of registry keys
+-
+-//	char *chToken;                       // Stored tokens of 'at' command output
+-//	char *chTemp;                        // Temporary value of a string variable as char *
+-	string strTemp;                      // Temporary string value
+-	vector <string> strParts;            // Parts of each line separated using whitespace
+-	vector <string> strIds;              // A list of the 'at' Ids to delete
+-	string strSearchString;              // Contains a value which defines an 'at' line 
+-	                                     // as a MIS-Scheduler line
+-	vector <string> strLogFiles;         // List fo log files to delete
+-
+-	ITaskScheduler  *g_pSchedulingAgent;    // The Task Scheduler object
+-//    ITask *pITask;                          // A single Task object
+-    wchar_t *strwTaskName;                  // The name of a task in wide-char
+-	HRESULT hRes;                           // The result of the Task Scheduler API calls
+-
+-	int i,j;                             // Counter for for-loops
+-
+-
+-	// Try to locate the MIS RD registry, if it still exists, do nothing.
+-
+-	if(findMIS() || strInstallPath == "")
+-	{
+-		return TRUE;
+-	}
+-
+-	if(deleteTailorFiles(strInstallPath))
+-	{
+-//		MessageBox(GetFocus(),"tailor files deleted","",MB_OK);
+-	}
+-
+-	strExcelKey = "Software\\Microsoft\\Office\\" + getExcelVersion() + "\\" + cExcelAddInManager;
+-
+-	// Open connection to the Excel Add-in Manager
+-	hExcel = openKey(HKEY_CURRENT_USER, strExcelKey);
+-
+-	reg_values.clear();
+-	// Enumerate Values
+-	if(hExcel)
+-	{
+-		for (j = 0, lngResult = ERROR_SUCCESS; lngResult == ERROR_SUCCESS; j++)
+-		{
+-		   dwcValueName = MAX_VALUE_NAME;
+-		   ValueName[0] = '\0';
+-		   lngResult = RegEnumValue (hExcel, j, ValueName,
+-								   &dwcValueName,
+-								   NULL,
+-								   NULL,               //&dwType,
+-								   NULL,               //&bData,
+-								   NULL);              //&bcData);
+-		   if (lngResult == (DWORD)ERROR_SUCCESS)
+-		   {
+-			   if (!strlen(ValueName)) 
+-			   {
+-//				   cout << "No value name" << endl;
+-			   }
+-			   else
+-			   {
+-//				   cout << "Value found (add-in manager)" << ValueName << endl;
+-				   reg_values.push_back((string)ValueName);
+-
+-			   }
+-		   }
+-		}// end for(;;)
+-
+-		// Delete mis.xla entries
+-		for (unsigned int k=0;k< reg_values.size();k++)
+-		{
+-			if(reg_values[k].find(strInstallPath) != string::npos)
+-			{
+-				lngResult = RegDeleteValue(hExcel, (LPCTSTR)reg_values[k].c_str());
+-				if(lngResult != (DWORD)ERROR_SUCCESS)
+-				{
+-//					cout << "Can't delete " << reg_values[k] << endl;
+-				}
+-			}
+-		}
+-	}
+-
+-	// Close connection to Excel Add-in Manager
+-	lngResult = RegCloseKey(hExcel);
+-
+-	strExcelKey = "Software\\Microsoft\\Office\\" + getExcelVersion() + "\\" + cExcelInstallAddins;
+-
+-	// Open connection to the Excel\Microsoft Excel Key
+-	hExcel = openKey(HKEY_CURRENT_USER, strExcelKey);
+-
+-	reg_values.clear();
+-	// Enumerate Values
+-	if(hExcel)
+-	{
+-		for (j = 0, lngResult = ERROR_SUCCESS; lngResult == ERROR_SUCCESS; j++)
+-		{
+-		   dwcValueName = MAX_VALUE_NAME;
+-		   ValueName[0] = '\0';
+-		   lngResult = RegEnumValue (hExcel, j, ValueName,
+-								   &dwcValueName,
+-								   NULL,
+-								   NULL,               //&dwType,
+-								   NULL,               //&bData,
+-								   NULL);              //&bcData);
+-		   if (lngResult == (DWORD)ERROR_SUCCESS)
+-		   {
+-			   if (!strlen(ValueName)) 
+-			   {
+-//				   cout << "No value name" << endl;
+-			   }
+-			   else
+-			   {
+-//				   cout << "Value found (OPEN)" << ValueName << endl;
+-				   if(((string)ValueName).find("OPEN") != string::npos)
+-				   {
+-					   reg_values.push_back((string)ValueName);
+-				   }
+-
+-			   }
+-		   }
+-		}// end for(;;)
+-
+-		// Delete mis.xla entries
+-//		cout << "reg values " << reg_values.size() << endl;
+-		for (unsigned int k=0;k< reg_values.size();k++)
+-		{
+-			string strValue;
+-			strValue = getValue(hExcel, reg_values[k]);
+-			if(strValue.find("mis.xla") != string::npos)
+-			{
+-//				cout << "Value delete(OPEN): " << reg_values[k] << " val: " << strValue << endl;
+-				lngResult = RegDeleteValue(hExcel, (LPCTSTR)reg_values[k].c_str());
+-				if(lngResult != (DWORD)ERROR_SUCCESS)
+-				{
+-//					cout << "Can't delete " << reg_values[k] << endl;
+-				}
+-			}
+-		}
+-	}
+-
+-
+-	// Close Excel key
+-	lngResult = RegCloseKey(hExcel);
+-
+-	// Delete the tasks found in TasksExistMSTask using the TaskScheduler
+-	CoInitialize(NULL);
+-
+-	// Get a handle for the task scheduler object
+-	hRes = CoCreateInstance( CLSID_CSchedulingAgent, 
+-							NULL, 
+-							CLSCTX_INPROC_SERVER, 
+-							IID_ITaskScheduler, 
+-							(LPVOID*)&g_pSchedulingAgent);
+-
+-	if(hRes == ERROR_SUCCESS)
+-	{
+-
+-	  // Look at the Application Name for each task, to see if it contains 'startschedule'
+-	  // 'Activate' returns a ITask object for the given task
+-	  for(i = 0; i<strMISTasks.size(); i++)
+-	  {
+-		  strwTaskName = (wchar_t *)malloc(256);
+-		  mbstowcs(strwTaskName, strMISTasks.at(i).c_str(), 256);
+-		  hRes = g_pSchedulingAgent->Delete(strwTaskName);
+- 
+-	      if (hRes != ERROR_SUCCESS)
+-		  {
+-			// wprintf(L"Failed calling ITaskScheduler->Delete: ");
+-			// Try the next one
+-			continue;
+-		  }
+-	  }
+-	}
+-    if (g_pSchedulingAgent)
+-    {
+-        g_pSchedulingAgent->Release();
+-        g_pSchedulingAgent = NULL;
+-    }
+-   
+-    // Unload the library, now that our pointer is freed.
+-
+-    CoUninitialize();
+-
+-	// Delete logs from the log directory
+-	if(getFiles(strInstallPath + "\\" + cLogPath, &strLogFiles, "*.*"))
+-	{
+-	   for(i = 0; i<strLogFiles.size(); i++)
+-	   {
+-		   if( remove( strLogFiles[i].c_str() ) == -1 )
+-		   {
+-			  perror( "Could not delete file! (Permissions?)" );
+-		   }
+-	   }
+-    }
+-	// Delete the log directory
+-	_rmdir((strInstallPath + "\\" + cLogPath).c_str());
+-
+-	// Remove the MIS_RD directory
+-	_rmdir(strInstallPath.c_str());
+-
+-	return TRUE;
+-}
+-
+-
+-/*------------------------------------------------------------------------------
+-HandleError()
+-
+-  This error routine is called if RunUninst, PreUninst, or PostUninst returns
+-  FALSE. These are the possible values for nErr: IDS_ERR_LAUNCHAPP, IDS_ERR_PREUNINST
+-  or IDS_ERR_POSTUNINST. You will need to create the values for IDS_ERR_PREUNINST
+-  and IDS_ERR_POSTUNINST in the string table. Default strings have been provided. 
+-  
+--------------------------------------------------------------------------------*/
+-void HandleError(DWORD nErr)
+-{
+-	TCHAR szErrorMsg[256];
+-	
+-	LoadString(hInst,nErr,szErrorMsg,256);
+-	MessageBox(GetFocus(), szErrorMsg,"",MB_ICONHAND);
+-	PostQuitMessage(0);
+-}
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/resource.h /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/resource.h
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/tools/uninstall/resource.h	Tue Jun 10 10:31:44 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/tools/uninstall/resource.h	Tue Jun 10 10:31:45 2008
+@@ -1,7 +1,27 @@
+-//{{NO_DEPENDENCIES}}
+-// Microsoft Developer Studio generated include file.
+-// Used by IsUn32ex.rc
+-//
++/*
++ * Licensed materials - property of Volt Delta International, Munich, Germany
++ * (C) Copyright of Volt Delta International 1983-2008
++ * All rights reserved
++ *
++ * Item       : DE:A110637.A-TEXT;1.0
++ * Name       : cmvcinfo/cmvc2dimensions.diff
++ * Date       : 10-JUN-2008 10:32:57
++ * Author     : MBA
++ * Revision   : 1.0
++ * Status     : CREATED
++ * System     : DE
++ * Description: Item uploaded into Dimensions
++ *
++ * Projects   :
++ * 1:
++ * 	Workset:     "$GENERIC:$GLOBAL"
++ * 	Description: Global workset for database 
++ * 
++ * 2:
++ * 	Workset:     "DE:MIS_RD.05.24"
++ * 	Description: MIS Report Designer 5.24
++ * 
++ *
++ * Requests   :
++ * 1:
++ * 	Request:   DE_MR_1045
++ * 	Action Date:       10-JUN-2008 10:32:03
++ * 	Relationship Type: In Response to
++ * 	Status:            WORKING
++ * 	Title:             Initial upload of project
++ * 
++ *
++ * History    :
++ * Revision 1.0 (CREATED)
++ *   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++ *     Item revision uploaded into Dimensions
++ *
++ */
+ #define IDS_ERR_LAUNCHAPP               1
+ #define IDS_ERR_PREUNINST               2
+ #define IDS_ERR_POSTUNINST              3
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : VBA
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by: 
+ #
+@@ -25,7 +23,10 @@
+ # Copyright    : varetis solutions GmbH, Landsberger Str. 110, 80339 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ #>>  1. Fill In:  the correct subdirs for each make target
+ SUBDIRS		= addin schedule
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/AutoCreate.cls /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/AutoCreate.cls
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/AutoCreate.cls	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/AutoCreate.cls	Tue Jun 10 10:31:47 2008
+@@ -5,11 +5,9 @@
+ Attribute VB_Exposed = False
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -34,7 +32,7 @@
+ Dim mobjDBAccess As clsDBAccess         'Schnittstelle zur DBAccess-Klasse
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ '-------------------------------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/DBAccess.cls /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/DBAccess.cls
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/DBAccess.cls	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/DBAccess.cls	Tue Jun 10 10:31:46 2008
+@@ -5,11 +5,9 @@
+ Attribute VB_Exposed = False
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -40,7 +38,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 'Const cODBCDriverName = "{IBM DB2 ODBC DRIVER}"
+ 
+ 
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/DataWizard.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/DataWizard.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/DataWizard.frm	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/DataWizard.frm	Tue Jun 10 10:31:47 2008
+@@ -17,11 +17,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : ADDIN
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/ReportProp.cls /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/ReportProp.cls
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/ReportProp.cls	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/ReportProp.cls	Tue Jun 10 10:31:46 2008
+@@ -4,11 +4,9 @@
+ Attribute VB_Exposed = False
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -35,7 +33,7 @@
+ Dim mqtbQueryTable As QueryTable        'die für den Report verwendete Querytabelle
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ '-------------------------------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/Schedule.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/Schedule.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/Schedule.frm	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/Schedule.frm	Tue Jun 10 10:31:46 2008
+@@ -25,11 +25,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    :%E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -54,7 +52,7 @@
+ Dim mobjDBAccess As clsDBAccess
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ 
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/ThisWorkbook.cls /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/ThisWorkbook.cls
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/ThisWorkbook.cls	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/ThisWorkbook.cls	Tue Jun 10 10:31:46 2008
+@@ -4,11 +4,9 @@
+ Attribute VB_Exposed = True
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -32,7 +30,7 @@
+ Private WithEvents App As Application
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ '-------------------------------------------------------------
+ ' Description   : installiert Registryeinträge
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/about.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/about.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/about.frm	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/about.frm	Tue Jun 10 10:31:46 2008
+@@ -18,11 +18,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: mac
+ '
+@@ -47,7 +45,7 @@
+ 
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ '-------------------------------------------------------------
+ ' Description   : Fenster schließen
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/addReport.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/addReport.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/addReport.frm	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/addReport.frm	Tue Jun 10 10:31:47 2008
+@@ -18,11 +18,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -45,7 +43,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ '-------------------------------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/addScheduleEntry.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/addScheduleEntry.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/addScheduleEntry.frm	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/addScheduleEntry.frm	Tue Jun 10 10:31:47 2008
+@@ -17,11 +17,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -51,7 +49,7 @@
+ Dim mDBType As String                   'Are we using DB2 or oracle?
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ 
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/application.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/application.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/application.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/application.bas	Tue Jun 10 10:31:46 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basApplication"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -28,7 +26,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ '-------------------------------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/de/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/de/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/de/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/de/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : ADDIN_DE
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/de/constants.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/de/constants.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/de/constants.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/de/constants.bas	Tue Jun 10 10:31:47 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basConstants"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -28,7 +26,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'Verzeichnis- und Dateinamen, Menüname
+ Global Const cCustom = "custom"
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/de/xlmake.xlp /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/de/xlmake.xlp
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/de/xlmake.xlp	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/de/xlmake.xlp	Tue Jun 10 10:31:47 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basMake"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %F%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: 
+ '
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/en/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/en/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/en/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/en/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : ADDIN_EN
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  -------------------------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/en/constants.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/en/constants.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/en/constants.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/en/constants.bas	Tue Jun 10 10:31:47 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basConstants"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -28,7 +26,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'Verzeichnis- und Dateinamen, Menüname
+ Global Const cCustom = "custom"
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/en/xlmake.xlp /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/en/xlmake.xlp
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/en/xlmake.xlp	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/en/xlmake.xlp	Tue Jun 10 10:31:47 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basMake"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %F%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: 
+ '
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/main.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/main.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/main.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/main.bas	Tue Jun 10 10:31:47 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basMain"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %E%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/removeReport.frm /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/removeReport.frm
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/removeReport.frm	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/removeReport.frm	Tue Jun 10 10:31:47 2008
+@@ -18,11 +18,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -45,7 +43,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ '-------------------------------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/security.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/security.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/security.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/security.bas	Tue Jun 10 10:31:47 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basSecurity"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -28,7 +26,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 
+ '-------------------------------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/system.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/system.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/addin/system.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/addin/system.bas	Tue Jun 10 10:31:46 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basSystem"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by:
+ '
+@@ -55,7 +53,7 @@
+ Dim mblnLogFile As Boolean
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'API Funktionskonstanten
+ Public Const HKEY_LOCAL_MACHINE = &H80000002
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : TOOLS schedule
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/de/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/de/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/de/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/de/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : ADDIN schedule
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/de/constants.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/de/constants.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/de/constants.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/de/constants.bas	Tue Jun 10 10:31:47 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basConstants"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -28,7 +26,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'RegistryEinträge
+ Global Const cAppName = "MIS"
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/en/Makefile /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/en/Makefile
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/en/Makefile	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/en/Makefile	Tue Jun 10 10:31:48 2008
+@@ -4,11 +4,9 @@
+ #
+ # Subproject   : ADDIN schedule
+ #
+-# CMVCwhat     : %W%
++# WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ #
+-# SCCSid       : %I%
+ #
+-# SCCSdelta    : %E% %U%
+ # 
+ # Maintained by:  
+ #
+@@ -34,7 +32,10 @@
+ # Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+ #
+ #----------------------------------------------------------------------------------------
+-#WHATPTR ="@(#) %W%, %I%"
++# cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
++# Item uploaded into Dimensions
++# 
++# Revision 1.0 (CREATED)
++#   Created:  10-JUN-2008 10:32:57      MBA (Markus Bank)
++#     Item revision uploaded into Dimensions
+ 
+ 
+ #-----------  Some global defines  --------------------------------------
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/en/constants.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/en/constants.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/en/constants.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/en/constants.bas	Tue Jun 10 10:31:47 2008
+@@ -1,11 +1,9 @@
+ Attribute VB_Name = "basConstants"
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -28,7 +26,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'RegistryEinträge
+ Global Const cAppName = "MIS"
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/startSchedule.bas /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/startSchedule.bas
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/pivot/vba/schedule/startSchedule.bas	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/pivot/vba/schedule/startSchedule.bas	Tue Jun 10 10:31:47 2008
+@@ -2,11 +2,9 @@
+ 
+ '----------------------------------------------------------------------------------------
+ '
+-' CMVCwhat     : %W%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ '
+-' SCCSid       : %I%
+ '
+-' SCCSdelta    : %E% %U%
+ '
+ ' Maintained by: kk
+ '
+@@ -50,7 +48,7 @@
+ 'Declare variables
+ 
+ 'Declare constants
+-Const what = "@(#) %W%, %I%"
++Const what = "@(#) cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA"
+ 
+ 'API Funktionskonstanten
+ Public Const HKEY_LOCAL_MACHINE = &H80000002
+diff -uwbr /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/setenv.vbs /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/setenv.vbs
+--- /home/mis/mba/c2d-stage/backup/MIS_RD.05.24/mis/setenv.vbs	Tue Jun 10 10:31:45 2008
++++ /home/mis/mba/c2d-stage/MIS_RD.05.24/mis/setenv.vbs	Tue Jun 10 10:31:47 2008
+@@ -1,7 +1,5 @@
+ '------------------------------------------------------------------------
+-' CMVCwhat     : %W%
+-' SCCSid       : %I%
+-' SCCSdelta    : %E% %U%
++' WhatString: cmvcinfo/cmvc2dimensions.diff 1.0 10-JUN-2008 10:32:57 MBA
+ ' Maintained by: 
+ ' Description  : Batchdatei mit Umgebungsvariablen für Make Aufruf anlegen
+ ' Keywords     :

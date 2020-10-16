@@ -1,0 +1,297 @@
+
+[InstallShield Wizard]
+iDate=1
+iTime=1
+Flag=fe000000
+ISX.EXE Size=692224
+ISX.EXE Date=15:50:38  22.3.2000
+ISX.EXE Ver=2.1.3.105
+SETUP.EXE Size=45360
+SETUP.EXE Date=14:43:00  14.12.1999
+SETUP.EXE Ver=3.0.111.0
+SETUP.INS Size=81433
+SETUP.INS Date=15:52:46  22.3.2000
+SETUP.INS Ver=Not available
+_INST16.EX_ Size=283522
+_INST16.EX_ Date=18:14:32  22.3.1999
+_INST16.EX_ Ver=Not available
+_INST32I.EX_ Size=296639
+_INST32I.EX_ Date=16:24:02  3.1.2000
+_INST32I.EX_ Ver=Not available
+ISDEPEND.INI Size=296639
+ISDEPEND.INI Date=16:24:02  3.1.2000
+ISDEPEND.INI Ver=Not available
+SWDEPEND.INI Size=296639
+SWDEPEND.INI Date=16:24:02  3.1.2000
+SWDEPEND.INI Ver=Not available
+ICOMP.EXE Size=119808
+ICOMP.EXE Date=17:05:10  15.1.1996
+ICOMP.EXE Ver=3.00.062
+SPLIT.EXE Size=90624
+SPLIT.EXE Date=17:09:36  15.1.1996
+SPLIT.EXE Ver=3.00.060
+PACKLIST.EXE Size=87552
+PACKLIST.EXE Date=17:10:30  15.1.1996
+PACKLIST.EXE Ver=3.00.060
+Version=2.13
+DevTool=Generic Windows
+Platform=Win32
+DisksDir=mis\650MB\
+TabsVisit=1111001111111111100011
+LangNum=453
+LangDir=LANG\DEU\
+
+[VisualDesign]
+AppName=MIS 5.24 Report Designer
+AppExe=
+AppExeFile=
+Version=5.24
+Company=Volt Delta International GmbH
+Title=MIS 5.24 Report Designer
+TitleType=1
+BackgrndBmp=%Project%\mis\pivot\setup\pictures\mis.bmp
+BackgrndAlign=1
+Backgrnd=1
+BackgrndColor=0
+Uninstall=1
+UninstallChecked=1
+Silent=1
+SmsMode=0
+
+[Types]
+Types=1
+Type1Components=1
+Type1Name=Vollständig
+Type1ComponentList=1 
+
+[Components]
+Components=1
+Component1Groups=9
+Component1Name=Anwendungsdateien
+Component1Description=Zur Ausführung benötigte Anwendungsdateien
+Component1GroupList=1 2 3 4 5 6 7 8 9 
+
+[Groups]
+Groups=9
+Group1Size=0
+Group1Files=3
+Group1Name=modules
+Group1Dir=<INSTALLDIR>\modules
+Group1Update=1
+Group1TargetOS=-1
+Group1File1=%Project%\mis\pivot\vba\addin\de\mis.xla
+Group1File2=%Project%\mis\pivot\tools\register\de\register.exe
+Group1File3=%Project%\mis\pivot\vba\schedule\de\startSchedule.exe
+Group2Size=0
+Group2Files=1
+Group2Name=Systemfiles
+Group2Dir=<WINSYSDIR>
+Group2Update=0
+Group2TargetOS=-1
+Group2File1=%Project%\mis\pivot\tools\runtime\msvbvm60.dll
+Group3Size=0
+Group3Files=0
+Group3Name=custom
+Group3Dir=<INSTALLDIR>\custom
+Group3Update=0
+Group3TargetOS=-1
+Group4Size=0
+Group4Files=2
+Group4Name=dat
+Group4Dir=<INSTALLDIR>\dat
+Group4Update=1
+Group4TargetOS=-1
+Group4File1=%Project%\mis\pivot\help\de\mis.CNT
+Group4File2=%Project%\mis\pivot\help\de\MIS.HLP
+Group5Size=0
+Group5Files=0
+Group5Name=log
+Group5Dir=<INSTALLDIR>\log
+Group5Update=1
+Group5TargetOS=-1
+Group6Size=0
+Group6Files=0
+Group6Name=scheduled reports
+Group6Dir=<INSTALLDIR>\scheduled reports
+Group6Update=0
+Group6TargetOS=-1
+Group7Size=0
+Group7Files=0
+Group7Name=tailor
+Group7Dir=<INSTALLDIR>\tailor
+Group7Update=1
+Group7TargetOS=-1
+Group8Size=0
+Group8Files=1
+Group8Name=private
+Group8Dir=<INSTALLDIR>\private
+Group8Update=1
+Group8TargetOS=-1
+Group8File1=%Project%\mis\pivot\vba\schedule\schedule.mis
+Group9Size=4285
+Group9Files=3
+Group9Name=User Enhanced Uninstall Files
+Group9Dir=<INSTALLDIR>
+Group9Update=3
+Group9TargetOS=-1
+Group9File1=%Project%\mis\pivot\tools\runtime\IsStub32.exe
+Group9File2=%Project%\mis\pivot\tools\uninstall\de\Release\IsUn32ex.exe
+Group9File3=%Project%\mis\release.inf
+
+[Sequence]
+DestinationLocationDir=<ProgramFilesDir>\Volt Delta\MIS 5.24 Report Designer
+DatabaseLocationDir=<INSTALLDIR>\data
+SelectProgramFolderName=mis
+DestinationLocation=1
+BeginFileTransfer=1
+ProgressBar=1
+SetupComplete=1
+SetupCompleteExec=
+SetupCompleteExecParam=
+SetupCompleteExecReadme=
+
+[RegEntries]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1Val1Type=0
+Reg1Val1Name=(Default)
+Reg1Val1Data=(value not set)
+Reg1Vals=1
+Reg2Path=HKEY_CURRENT_USER
+Reg2Val1Type=0
+Reg2Val1Name=(Default)
+Reg2Val1Data=(value not set)
+Reg2Vals=1
+Reg3Path=HKEY_LOCAL_MACHINE
+Reg3Val1Type=0
+Reg3Val1Name=(Default)
+Reg3Val1Data=(value not set)
+Reg3Vals=1
+Reg4Path=HKEY_USERS
+Reg4Val1Type=0
+Reg4Val1Name=(Default)
+Reg4Val1Data=(value not set)
+Reg4Vals=1
+Reg5Path=HKEY_CURRENT_CONFIG
+Reg5Val1Type=0
+Reg5Val1Name=(Default)
+Reg5Val1Data=(value not set)
+Reg5Vals=1
+Reg6Path=HKEY_DYN_DATA
+Reg6Val1Type=0
+Reg6Val1Name=(Default)
+Reg6Val1Data=(value not set)
+Reg6Vals=1
+Reg7Path=HKEY_CURRENT_USER\Software
+Reg7Val1Type=0
+Reg7Val1Name=(Default)
+Reg7Val1Data=(value not set)
+Reg7Vals=1
+Reg8Path=HKEY_CURRENT_USER\Software\VB and VBA Program Settings
+Reg8Val1Type=0
+Reg8Val1Name=(Default)
+Reg8Val1Data=(value not set)
+Reg8Vals=1
+Reg9Path=HKEY_CURRENT_USER\Software\VB and VBA Program Settings\MIS_RD.05.24
+Reg9PathUninstall=1
+Reg9Val1Type=0
+Reg9Val1Name=(Default)
+Reg9Val1Data=(value not set)
+Reg9Vals=1
+Reg10Path=HKEY_CURRENT_USER\Software\VB and VBA Program Settings\MIS_RD.05.24\general
+Reg10Val1Type=0
+Reg10Val1Name=(Default)
+Reg10Val1Data=(value not set)
+Reg10Val2Type=0
+Reg10Val2Name=InstallPath
+Reg10Val2Data=<INSTALLDIR>
+Reg10Vals=2
+Reg11Path=HKEY_LOCAL_MACHINE\SOFTWARE
+Reg11Val1Type=0
+Reg11Val1Name=(Default)
+Reg11Val1Data=(value not set)
+Reg11Vals=1
+Reg12Path=HKEY_LOCAL_MACHINE\SOFTWARE\VB and VBA Program Settings
+Reg12Val1Type=0
+Reg12Val1Name=(Default)
+Reg12Val1Data=(value not set)
+Reg12Vals=1
+Reg13Path=HKEY_LOCAL_MACHINE\SOFTWARE\VB and VBA Program Settings\MIS_RD.05.24
+Reg13PathUninstall=1
+Reg13Val1Type=0
+Reg13Val1Name=(Default)
+Reg13Val1Data=(value not set)
+Reg13Vals=1
+Reg14Path=HKEY_LOCAL_MACHINE\SOFTWARE\VB and VBA Program Settings\MIS_RD.05.24\general
+Reg14Val1Type=0
+Reg14Val1Name=(Default)
+Reg14Val1Data=(value not set)
+Reg14Val2Type=0
+Reg14Val2Name=InstallPath
+Reg14Val2Data=<INSTALLDIR>
+Reg14Vals=2
+Regs=14
+
+[Registry]
+Reg1Path=HKEY_CURRENT_USER\Software
+Reg2Path=HKEY_CURRENT_USER\Software\VB and VBA Program Settings
+Reg3Path=HKEY_CURRENT_USER\Software\VB and VBA Program Settings\MIS_RD.05.24
+Reg3PathUninstall=1
+Reg4Path=HKEY_CURRENT_USER\Software\VB and VBA Program Settings\MIS_RD.05.24\general
+Reg5Path=HKEY_CURRENT_USER\Software\VB and VBA Program Settings\MIS_RD.05.24\general
+Reg5ValName=InstallPath
+Reg5ValType=0
+Reg5ValData=<INSTALLDIR>
+Reg6Path=HKEY_LOCAL_MACHINE\SOFTWARE
+Reg7Path=HKEY_LOCAL_MACHINE\SOFTWARE\VB and VBA Program Settings
+Reg8Path=HKEY_LOCAL_MACHINE\SOFTWARE\VB and VBA Program Settings\MIS_RD.05.24
+Reg8PathUninstall=1
+Reg9Path=HKEY_LOCAL_MACHINE\SOFTWARE\VB and VBA Program Settings\MIS_RD.05.24\general
+Reg10Path=HKEY_LOCAL_MACHINE\SOFTWARE\VB and VBA Program Settings\MIS_RD.05.24\general
+Reg10ValName=InstallPath
+Reg10ValType=0
+Reg10ValData=<INSTALLDIR>
+Regs=10
+
+[VisualBasic]
+PRJFile=
+
+[Ext]
+Ext1Dlg=Setup Complete
+Ext1Param1=[modules]\register.exe
+Ext1Param2=<INSTALLDIR> <SRCDIR>
+Ext1Param3=
+Ext1Param4=1
+Ext1Op=EXE
+
+[Disk1 Files]
+AutoRun=1
+
+[SysIniFiles]
+File1=WIN.INI
+Section1=
+Key1=
+Value1=
+File2=SYSTEM.INI
+Section2=
+Key2=
+Value2=
+File3=PROTOCOL.INI
+Section3=
+Key3=
+Value3=
+IniFiles=3
+
+[Autoexec]
+PathDir=
+ShareLocks=
+ShareFiles=
+Command=
+
+[CopyToFloppy]
+DriveOption=
+DestinationPath=
+DestinationPathOneFile=
+Password=
+
+[Uninstall]
+UserUninstall=1

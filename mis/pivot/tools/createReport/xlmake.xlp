@@ -1,0 +1,88 @@
+Attribute VB_Name = "basMake"
+'----------------------------------------------------------------------------------------
+'
+' WhatString: mis/pivot/tools/createReport/xlmake.xlp 1.0 10-JUN-2008 10:32:34 MBA
+'
+'
+'
+' Maintained by: 
+'
+' Description  :
+'
+' Keywords     :
+'
+' Reference    :
+'
+' Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+'
+'----------------------------------------------------------------------------------------
+'
+'Declarations
+
+
+'Options
+Option Explicit
+
+'Declare variables
+
+
+'Declare constants
+Const what = "@(#) mis/pivot/tools/createReport/xlmake.xlp 1.0 10-JUN-2008 10:32:34 MBA"
+
+
+
+'-------------------------------------------------------------
+' Description   :
+'
+' Reference     :
+'
+' Parameter     :
+'
+' Exception     :
+'-------------------------------------------------------------
+'
+Public Sub MakeIt()
+
+    Dim wbkMISAddIn As Workbook
+    Dim vbcModule As VBComponent
+    Dim vbcWorkbookCode As VBComponent
+    Dim strSharedFilesDir As String
+ 
+    'neues Workbook anlegen
+    Set wbkMISAddIn = Workbooks.Add
+    
+    'Picture Sheet erstellen (speichert Logo)
+    chdir workbooks("xlmake.xls").Path
+    Sheets(1).Name = "Create Report"
+    
+    'WorbookCode identifizieren
+    For Each vbcWorkbookCode In wbkMISAddIn.VBProject.VBComponents
+        If (vbcWorkbookCode.Name = "ThisWorkbook") Or (vbcWorkbookCode.Name = "DieseArbeitsmappe") Then
+            Exit For
+        End If
+    Next
+    vbcWorkbookCode.CodeModule.AddFromFile "ThisWorkbook.cls"
+    'Klassen hinzufügen
+    Set vbcModule = wbkMISAddIn.VBProject.VBComponents.Add(vbext_ct_ClassModule)
+    vbcModule.CodeModule.AddFromFile "Pivot.cls"
+    Set vbcModule = wbkMISAddIn.VBProject.VBComponents.Add(vbext_ct_ClassModule)
+    vbcModule.CodeModule.AddFromFile "Query.cls"
+    Set vbcModule = wbkMISAddIn.VBProject.VBComponents.Add(vbext_ct_ClassModule)
+    vbcModule.CodeModule.AddFromFile "Regentry.cls"
+    'Module hinzufügen
+    Set vbcModule = wbkMISAddIn.VBProject.VBComponents.Add(vbext_ct_StdModule)
+    vbcModule.CodeModule.AddFromFile "main.bas"
+    'Fenster hinzufügen
+    wbkMISAddIn.VBProject.VBComponents.Import "Review.frm"
+    wbkMISAddIn.VBProject.VBComponents.Import "AddReport.frm"
+    
+    'Properties so weit möglich setzen
+    wbkMISAddIn.VBProject.Description = "Tool legt für neuen Report notwendige Registryeinträge an"
+    wbkMISAddIn.IsAddin = True
+    wbkMISAddIn.BuiltinDocumentProperties("Comments") = "Tool legt für neuen Report notwendige Registryeinträge an"
+    
+    'AddIn speichern
+    wbkMISAddIn.SaveAs "createReport.xla", xlAddIn
+    
+End Sub
+

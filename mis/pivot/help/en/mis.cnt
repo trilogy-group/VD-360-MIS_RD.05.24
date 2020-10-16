@@ -1,0 +1,39 @@
+:Base mis.HLP
+1 MIS Report Designer
+2 Introduction
+3 What is the MIS Report Designer?=What_is_the_MIS_Report_Designer
+3 First steps=First_steps
+3 Preconditions=Preconditions
+3 Creating a report=Creating_a_report
+2 MIS reports
+3 MIS reports=MIS_reports
+3 Definition of terms=Definition_of_terms
+3 Dimensions in MIS reports=Dimensions_in_MIS_reports
+3 Members=Members
+3 Measures=Measures
+3 Cubes=Cubes
+3 Multidimensional evaluation=Multidimensional_evaluation
+3 Hierarchies=Hierarchies
+3 List reports=List_reports
+3 Other terms=Other_terms
+2 Customized reports
+3 Customized reports=Customized_reports
+3 Operator performance=Example_Operator_performance
+3 Service level verification=Example_Service_level_verification
+3 Target database level verification=Example_Target_database_level_verification
+2 Functions of MIS Report Designer
+3 Functions=Functions
+3 Open an MIS report=Open_an_MIS_report
+3 Add a customized report to the MIS menu=Add_a_customized_report_to_the_MIS_menu
+3 Remove a customized report from the MIS menu=Remove_a_customized_report_from_the_MIS_menu
+3 Exchange reports with other users=Exchange_reports_with_other_users
+3 Add/remove scheduled tasks to automatically create a report (optional)=Add_remove_scheduled_tasks_to_automatically_create_a_report_optional
+2 Troubleshooting
+3 Troubleshooting=Troubleshooting
+3 General tips=General_tips
+3 Hints and error messages during startup of the MIS Report Designer=Hints_and_error_messages_during_startup_of_the_MIS_Report_Designer
+3 Hints and error messages while reports are opened=Hints_and_error_messages_while_reports_are_opened
+3 Hints and error messages during adding and removing customized reports=Hints_and_error_messages_during_adding_and_removing_customized_reports
+3 Hints and error messages during startup of the dialog "Schedule"=Hints_and_error_messages_during_startup_of_the_dialog_Schedule
+3 Hints and error messages during adding and removing scheduled tasks=Hints_and_error_messages_during_adding_and_removing_scheduled_tasks
+3 General hints and error messages=General_hints_and_error_messages

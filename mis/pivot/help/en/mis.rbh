@@ -1,0 +1,13 @@
+[VERSION]
+RHFile=7.0
+[.rbh]
+CopyToWasUpdated7=1
+[File Properties]
+BrowseType=0
+BrowseString=
+DefaultBuildTag=
+StartingWith=0
+IncrementBy=20
+AutoMapFile=1
+MapStartWith=1
+LastUsedBrowse=0

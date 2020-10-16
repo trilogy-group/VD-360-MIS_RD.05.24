@@ -1,0 +1,28 @@
+#----------------------------------------------------------------------------------------
+#
+# Project      : MISR_EXCEL
+#
+# Subproject   : 
+#
+# WhatString: mis/Info.txt 1.0 10-JUN-2008 10:32:12 MBA
+#
+#
+# 
+# Description  : 
+#
+# Keywords     : 
+#
+# Reference    : 
+#
+# Copyright    : varetis COMMUNICATIONS GmbH, Grillparzer Str.10, 81675 Muenchen, Germany
+#
+#----------------------------------------------------------------------------------------
+# mis/Info.txt 1.0 10-JUN-2008 10:32:12 MBA
+# Item uploaded into Dimensions
+# 
+# Revision 1.0 (CREATED)
+#   Created:  10-JUN-2008 10:32:12      MBA (Markus Bank)
+#     Item revision uploaded into Dimensions
+
+Dieses File enthält nur den what pointer. Es wird bei der Lieferung in das 
+support-Verzeichnis kopiert damit das RuntimeLevelTool das ReleaseInfo erstellen kann.
